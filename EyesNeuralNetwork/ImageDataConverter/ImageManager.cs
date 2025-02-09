@@ -38,7 +38,7 @@ namespace EyesNeuralNetwork.ImageDataConverter
         {
             Bitmap bitmap = new Bitmap(image);
             pixelColorData = new byte[image.Width, image.Height];
-            short brightness = 150;
+            short brightness = 100;
             for (int y = 0; y < image.Height; y++)
             {
                 for (int x = 0; x < image.Width; x++)
