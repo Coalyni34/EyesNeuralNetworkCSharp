@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace EyesNeuralNetwork.NeuranNetworkWorking
 {
-    public class NeralNetwork
+    public class NeuralNetwork
     {
+
     }
 }

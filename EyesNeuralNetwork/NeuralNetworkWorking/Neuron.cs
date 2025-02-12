@@ -31,16 +31,18 @@ namespace EyesNeuralNetwork.NeuranNetworkWorking
         {
             return output * Weight;
         }
-        public void Train() 
+        public void Train(decimal expectingResult) 
         {
 
         }
     }
     public class FirstLayerNeuron : Neuron 
     {
+
     }
     public class SecondLayerNeuron : Neuron 
     {
+
     }
     public class LastNeuron 
     {
